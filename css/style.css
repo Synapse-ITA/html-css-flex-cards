@@ -13,6 +13,8 @@
 .main-title {
     text-align: center;
     margin-bottom: 40px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .div-principale {
@@ -25,7 +27,44 @@
     margin-right: 50px;
 }
 
+/* FLEXBOX HEADER */
+.contenitore-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(209, 209, 209);
 
+}
+
+.flexboxitem-header {
+    margin-left: 50px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.flexboxitem-header2 {
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-self: center;
+    font-size: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 200px;
+    margin: 50px;
+    }
+
+.subitemheader {
+    align-self: center;
+    justify-content: center;
+}
+
+#imgheader {
+    height: 150px;
+    width: 150px;
+}
+
+/*FLEXBOX CENTRALE CARDS*/
 
 /* GENITORE FLEXBOX */
 
@@ -46,9 +85,9 @@
 .flexbox-item1 {
     display: flex;
     flex-direction: row;
-    background-color: rgb(136, 184, 255);
+    background-color: rgb(208, 255, 227);
     align-items: center;
-    width: 350px;
+    width: 30%;
     border-radius: 20px;
     box-shadow: 10px 10px 10px;
 }
@@ -75,4 +114,18 @@
     flex-direction: column;
     align-items: center;
     padding-left: 20px;
+}
+
+/*PARTE FOOTER*/
+#footer {
+    background-color: rgb(0, 12, 119);
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.card-right{
+    padding-left: 5px;
+    background-color: aqua;
+    color: white;
 }
