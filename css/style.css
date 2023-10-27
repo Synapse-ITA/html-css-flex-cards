@@ -3,21 +3,40 @@
     margin: 0:
 }
 
+.img-size {
+    width: 100px;
+    height: 100px;
+
+}
+
 .main-title {
     text-align: center;
     margin-bottom: 70px;
 }
 
+.div-principale {
+    background-color: aqua;
+}
+
+/* GENITORE FLEXBOX */
+
 .main-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    gap: 30px;
-    background-color: rgb(151, 151, 61);
+    justify-content: space-between;
+    gap: 50px;
+    background-color: rgb(65, 10, 70);
+    flex-wrap: wrap;
+    padding: 50px;
 }
 
+/*FIGLI FLEXBOX */
+
 .flexbox-item1 {
-    width: 200px;
-    height: 200px;
+    display: flex;
+    background-color: rgb(180, 138, 138);
+    align-items: center;
+    width: 300px;
+    padding-left: 40px;
+
 }
